@@ -1,0 +1,30 @@
+@media only screen and (max-width: 900px) {
+    /* INDEX PAGE */
+    /* TRAILER AREA */
+    .trailerArea > .trailerInfo {
+        top: 5%;
+    }
+    .trailerArea > video {
+        height: 34vh;
+    }
+    /* FILM AREA */
+    .filmArea > .filmList > .filmBox {
+        width: 200px;
+    }
+    .filmArea > h1 {
+        font-size: 1rem;
+    }
+    #filmName {
+        font-size: 1rem;
+    }
+    #filmDescription {
+        font-size: 0.9rem;
+    }
+    #filmName,#filmDescription {
+        margin-bottom: 0.3rem;
+    }
+    /* WATCH BUTTON */
+    .btn-watch2 {
+        width: 100%;
+    }
+  }

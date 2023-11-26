@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/mobile.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logoArea">
+                <a href="index.html"><img src="/images/Netflix-Logo.png" alt="Netflix_Logo"></a>
+            </div>
+            <div class="navArea">
+                <ul>
+                    <li><a href="#seriesAreaSec">Diziler</a></li>
+                    <li><a href="#filmAreaSec">Filmler</a></li>
+                </ul>
+            </div>
+            <div class="personalArea">
+                <button class="btn-panel" id="button-panel">Panel</button>
+                <button class="btn-logout">Çıkış Yap</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="trailerArea">
+            <video src="/videos/fast&furious_trailer.mp4" autoplay muted loop></video>
+            <div class="trailerInfo">
+                <img src="/images/ffx-Logo.png" alt="Trailer_Logo">
+                <h1>Fast & Furious X</h1>
+                <p>Hızlı ve Öfkeli 10, Dom Torretto’dan intikam almak için onu sevdiklerini hedef alan bir kötüye karşı zorlu bir mücadeleye girişen Dom ve ekibinin hikayesini konu ediyor. Yıllarca karşılarına çıkan onca düşmanı zekice, hızlı sürüşleriyle arkalarında bırakan Dom Toretto ve ailesi, bu defa bu zamana kadarki en ölümcül rakipleriyle karşı karşıyadır.</p>
+                <button class="btn-watch"><i class="fa-solid fa-circle-play fa-lg"></i> İzle</button>
+                <button class="btn-info"><i class="fa-solid fa-circle-info fa-lg"></i> Daha Fazla Bilgi</button>
+            </div>
+        </section>
+        <section class="filmArea" id="filmAreaSec">
+            <h1><i class="fa-solid fa-film fa-lg"></i> Filmler</h1>
+            <hr>
+            <div class="filmList">
+                <div class="filmBox">
+                    <img src="/images/fast&furious-x-banner.png" alt="Banner" id="filmBanner">
+                    <div class="filmInfo">
+                        <h1 id="filmName">Fast & Furious X</h1>
+                        <p id="filmDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis tellus, euismod vel eros.</p>
+                        <button class="btn-watch2"><i class="fa-solid fa-circle-play fa-lg"></i> İzle</button>
+                    </div>
+                    <div class="logoInBanner">
+                        <img src="/images/N-Logo.png" alt="N_Logo">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="/javascripts/index.js"></script>
+</body>
+</html>

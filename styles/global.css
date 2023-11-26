@@ -1,0 +1,84 @@
+/* HORIZONTAL LINE */
+hr {
+    margin-top: 0.5rem;
+    opacity: 0.1;
+}
+/* LINKS */
+a {
+    text-decoration: none;
+    color: #fff;
+}
+/* LISTS */
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    margin: 1rem;
+}
+/* BUTTONS */
+.btn-panel {
+    height: 40px;
+    padding: 0rem 1rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #f00;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-panel:hover {
+    background-color: rgba(255, 0, 0, 0.75);
+}
+.btn-logout {
+    height: 40px;
+    padding: 0rem 1rem;
+    margin: 0.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.btn-logout:hover {
+    background-color: #ffffffe1;
+}
+.btn-watch {
+    height: 40px;
+    padding: 0rem 1rem;
+    margin-right: 0.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+.btn-watch:hover {
+    background-color: #ffffffcc;
+}
+.btn-watch2 {
+    height: 30px;
+    width: 96px;
+    padding: 0rem 0.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    cursor: pointer;
+}
+.btn-watch2:hover {
+    background-color: rgb(20, 20, 20);
+}
+.btn-info {
+    height: 40px;
+    padding: 0rem 1rem;
+    margin-right: 0.3rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #777777bb;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-info:hover {
+    background-color: rgba(119, 119, 119, 0.5);
+}

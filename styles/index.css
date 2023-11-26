@@ -1,0 +1,111 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* FONT FAMILIY */
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+/* BODY */
+body {
+    background-color: #141414;
+    color: #fff;
+}
+/* HEADER */
+.navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7rem;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(14,14,14,1) 100%);
+}
+.navbar > .logoArea {
+    height: 100%;
+}
+.navbar > .logoArea > a > img {
+    height: 100%;
+}
+.navbar > .navArea {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.navbar > .personalArea {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+/* MAIN */
+/* TRAILER AREA */
+.trailerArea {
+    width: 100%;
+    position: relative;
+}
+.trailerArea > video {
+    max-height: 80vh;
+    width: 100%;
+    object-fit: cover;
+}
+.trailerArea > .trailerInfo {
+    max-width: 600px;
+    padding: 1rem;
+    background-color: #14141450;
+    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    right: 5%;
+}
+.trailerArea > .trailerInfo > img {
+    width: 80px;
+}
+.trailerArea > .trailerInfo > h1,p {
+    margin-bottom: 1rem;
+}
+/* FILM AREA */
+.filmArea {
+    width: 100%;
+    padding: 1rem;
+}
+.filmArea > .filmList {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+.filmArea > .filmList > .filmBox {
+    width: 256px;
+    border-radius: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0.5rem;
+    position: relative;
+}
+.filmArea > .filmList > .filmBox > img {
+    width: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+    margin-bottom: 0.5rem; 
+}
+.filmArea > .filmList > .filmBox > .filmInfo {
+    margin: 0 0.5rem 0.5rem 0.5rem;
+}
+.filmArea > .filmList > .filmBox > .logoInBanner {
+    width: 40px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.filmArea > .filmList > .filmBox > .logoInBanner > img {
+    width: 100%;
+}
+#filmDescription {
+    color: #ddd
+}
+#filmName,#filmDescription {
+    margin-bottom: 0.5rem;
+}
