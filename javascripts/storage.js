@@ -20,3 +20,17 @@ Storage.prototype.getMoviesFromStorage = function(){
 
     return movies;
 }
+Storage.prototype.deleteMovieFromStorage = function(movieTitle){
+    let movies = this.getMoviesFromStorage();
+    // Splice
+    movies.forEach(function(movie,index){
+        if (movie.title === movieTitle){
+            movies.splice(index,1);
+        }
+    })
+
+    localStorage.setItem("movies",JSON.stringify(movies));
+}
+Storage.prototype.clearAllMoviesFromStorage = function(){
+    localStorage.removeItem("movies");
+}
