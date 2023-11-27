@@ -1,3 +1,6 @@
+E-mail: admin@gmail.com
+Password: 12345
+
 ![](Screenshot_1.png)
 ![](Screenshot_2.png)
 ![](Screenshot_3.png)
