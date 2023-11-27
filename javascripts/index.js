@@ -37,6 +37,10 @@ class indexUI {
         const newPageUrl = "panel.html";
         window.location.href = newPageUrl;
     }
+    static goLogin = () => {
+        const newPageUrl = "login.html";
+        window.location.href = newPageUrl;
+    }
 
     static handleScroll = () => {
         const navbar = document.querySelector(".navbar");
@@ -58,6 +62,8 @@ const eventListeners = () => {
         indexUI.handleScroll(); // Scroll olayını dinlemek için bu fonksiyonu çağırın
         const panelButton = document.getElementById("button-panel");
         panelButton.addEventListener("click", indexUI.goPanel);
+        const logoutButton = document.getElementById("button-logout");
+        logoutButton.addEventListener("click", indexUI.goLogin);
     });
 };
 

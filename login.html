@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Login</title>
+    <!-- css -->
+    <link rel="stylesheet" href="/styles/login.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="login.html"><img src="/images/Netflix-Logo.png" alt="Logo"></a>
+        </div>
+    </header>
+    <main>
+        <div class="login-form-area">
+            <form action="#" id="login-form">
+                <h1 id="login-title">Oturum Aç</h1>
+                <div class="email-input">
+                    <input type="email" name="email" id="inp-email" placeholder="E-posta" class="input-field">
+                </div>
+                <div class="password-input">
+                    <input type="password" name="password" id="inp-password" placeholder="Parola" class="input-field">
+                </div>
+                <button type="submit" class="btn-submit" id="buttonSub">Oturum Aç</button>
+                <div class="help-and-remember-area">
+                    <div class="remember-area">
+                        <input type="checkbox" name="rememberme" id="rememberme">
+                        <label for="rememberme" id="rememberMeClick">Beni Hatırla</label>
+                    </div>
+                    <h4><a href="#" id="helping">Yardım ister misiniz?</a></h4>
+                </div>
+                <h3 id="join-request">Netflix'e katılmak ister misiniz? <a href="#">Şimdi kaydolun.</a></h3>
+                <h5 id="robot">Bu sayfa robot olmadığınızı kanıtlamak için Google reCAPTCHA tarafından korunuyor. <a href="#" id="learn-more">Daha fazlasını öğrenin.</a></h5>
+            </form>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        <div class="footer-area">
+            <h3 id="haveQuestion">Sorularınız mı var? <a href="#">0850-390-7444</a> numaralı telefonu arayın</h3>
+            <div class="link-area">
+            <div class="column">
+                <a href="#" id="faq">SSS</a>
+                <a href="#" id="cookies">Çerez Tercihleri</a>
+            </div>
+            <div class="column">
+                <a href="#" id="helpcenter">Yardım Merkezi</a>
+                <a href="#" id="infos">Kurumsal Bilgiler</a>
+            </div>
+            <div class="column">
+                <a href="#" id="uses">Kullanım Koşulları</a>
+            </div>
+            <div class="column">
+                <a href="#" id="security">Gizlilik</a>
+            </div>
+        </div>
+        </div>
+    </footer>
+
+    <script src="/javascripts/login.js"></script>
+</body>
+</html>

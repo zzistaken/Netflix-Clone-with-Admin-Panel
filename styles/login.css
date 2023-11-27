@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family:"Netflix Sans","Helvetica Neue","Segoe UI",Roboto,Ubuntu,sans-serif
+}
+body {
+    background:url(/images/netflix_bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header,main,footer {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+/* global */
+a:hover {
+    text-decoration: underline;
+}
+/* header */
+.navbar{
+    height: 110px;
+    width: 100%;
+    padding-left: 3rem;
+}
+.navbar > a > img {
+    height: 90%;
+}
+/* main */
+main {
+    padding-bottom: 5rem;
+}
+.login-form-area {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    height: 660px;
+    width: 450px;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+form > h1 {
+    margin: 0.5rem;
+    font-weight: 500;
+}
+.email-input, .password-input {
+    width: 100%;
+    padding: 0.5rem;
+    position: relative;
+}
+#inp-email, #inp-password {
+    height: 50px;
+    width: 100%;
+    border-radius: 4px;
+    padding-left: 1rem;
+    background-color: #333333;
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+}
+.btn-submit {
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+    margin: 0.5rem;
+    background-color: #e50913;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.help-and-remember-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem;
+    color: #737373;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.help-and-remember-area > h4 > a{
+    text-decoration: none;
+    color: #737373;
+}
+.help-and-remember-area > h4 > a:hover {
+    text-decoration: underline;
+}
+form > h3 {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #737373;
+}
+form > h3 > a {
+    text-decoration: none;
+    color: #fff;
+}
+form > h5 {
+    margin: 0.5rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #737373;
+}
+form > h5 > a {
+    text-decoration: none;
+    color: #335fba;
+}
+hr {
+    display: none;
+}
+/* footer */
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+footer > .footer-area {
+    max-width: 1000px;
+}
+footer > .footer-area > h3 {
+    margin: 0.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #737373;
+}
+footer > .footer-area > h3 > a {
+    text-decoration: none;
+    color: #737373;
+}
+footer > .footer-area > h3 > a:hover {
+    text-decoration: underline;
+}
+footer > .footer-area > .link-area {
+    display: flex;
+}
+footer > .footer-area > .link-area > .column {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 1rem;
+}
+footer > .footer-area > .link-area > .column > a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #737373;
+    margin-bottom: 1rem;
+}
+footer > .footer-area > .link-area > .column > a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 740px) {
+    html {
+        background-color: #000;
+    }
+    header,main,footer {
+        background-color: #000;
+    }
+    main {
+        padding-bottom: 0rem;
+    }
+    .login-form-area {
+        height: 600px;
+        align-items: start;
+    }
+    form {
+        padding: 1rem;
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+    hr {
+        display: block;
+    }
+  }
+
+.error-message {
+    margin-top: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #ff8000;
+}
+
+.input-field {
+    border: none;
+    outline: none;
+}
+
+.input-field-error {
+    border-bottom: 2px solid #ff8000;
+}
+
+.floating-label {
+    top: 8px;
+    left: 20px;
+    font-size: 0.7rem;
+    position: absolute;
+    color: #737373;
+}

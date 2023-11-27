@@ -144,3 +144,41 @@ body {
 #filmName,#filmDescription {
     margin-bottom: 0.5rem;
 }
+/* FOOTER AREA */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerArea {
+    min-height: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.socials {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.linkArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 1rem 1rem 1rem 0;
+    margin: 1rem 1rem 1rem 0;
+}
+.footerBox > a,h4{
+    font-size: 0.9rem;
+    color: #808080;
+    margin-bottom: 0.5rem;
+}
+.footerBox > a:hover{
+    text-decoration: underline;
+}

@@ -49,4 +49,20 @@
     .btn-watch2 {
         width: 100%;
     }
+    /* FOOTER */
+    .linkArea {
+        flex-wrap: wrap;
+    }
+    .footerBox {
+        padding: 0.5rem 0.5rem 1rem;
+        margin: 0.5rem 0.5rem 1rem;
+    }
+    .socials {
+        padding: 0.5rem 0.5rem 1rem;
+        margin: 0.5rem 0.5rem 1rem;
+    }
+    .footerArea > h4 {
+        padding: 0.5rem 0.5rem 1rem;
+        margin: 0.5rem 0.5rem 1rem;
+    }
   }
