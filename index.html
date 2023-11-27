@@ -19,8 +19,8 @@
             </div>
             <div class="navArea">
                 <ul>
-                    <li><a href="#seriesAreaSec">Diziler</a></li>
-                    <li><a href="#filmAreaSec">Filmler</a></li>
+                    <li><a href="#trailerSec">Ana Sayfa</a></li>
+                    <li><a href="#intermediateBox">Filmler</a></li>
                 </ul>
             </div>
             <div class="personalArea">
@@ -30,31 +30,25 @@
         </div>
     </header>
     <main>
-        <section class="trailerArea">
+        <section class="trailerArea" id="trailerSec">
             <video src="/videos/fast&furious_trailer.mp4" autoplay muted loop></video>
             <div class="trailerInfo">
                 <img src="/images/ffx-Logo.png" alt="Trailer_Logo">
                 <h1>Fast & Furious X</h1>
-                <p>Hızlı ve Öfkeli 10, Dom Torretto’dan intikam almak için onu sevdiklerini hedef alan bir kötüye karşı zorlu bir mücadeleye girişen Dom ve ekibinin hikayesini konu ediyor. Yıllarca karşılarına çıkan onca düşmanı zekice, hızlı sürüşleriyle arkalarında bırakan Dom Toretto ve ailesi, bu defa bu zamana kadarki en ölümcül rakipleriyle karşı karşıyadır.</p>
+                <p id="trailerPrgh">Hızlı ve Öfkeli 10, Dom Torretto’dan intikam almak için onu sevdiklerini hedef alan bir kötüye karşı zorlu bir mücadeleye girişen Dom ve ekibinin hikayesini konu ediyor. Yıllarca karşılarına çıkan onca düşmanı zekice, hızlı sürüşleriyle arkalarında bırakan Dom Toretto ve ailesi, bu defa bu zamana kadarki en ölümcül rakipleriyle karşı karşıyadır.</p>
                 <button class="btn-watch"><i class="fa-solid fa-circle-play fa-lg"></i> İzle</button>
                 <button class="btn-info"><i class="fa-solid fa-circle-info fa-lg"></i> Daha Fazla Bilgi</button>
             </div>
         </section>
+        <div class="intermediateBox" id="intermediateBox">
+            <h3>Size uygun Netflix abonelik planını seçin. İstediğiniz zaman sürüm düşürün, yükseltin veya iptal edin.</h3>
+            <button class="btn-subscribe">Abone Ol</button>
+        </div>
         <section class="filmArea" id="filmAreaSec">
             <h1><i class="fa-solid fa-film fa-lg"></i> Filmler</h1>
             <hr>
-            <div class="filmList">
-                <div class="filmBox">
-                    <img src="/images/fast&furious-x-banner.png" alt="Banner" id="filmBanner">
-                    <div class="filmInfo">
-                        <h1 id="filmName">Fast & Furious X</h1>
-                        <p id="filmDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse felis tellus, euismod vel eros.</p>
-                        <button class="btn-watch2"><i class="fa-solid fa-circle-play fa-lg"></i> İzle</button>
-                    </div>
-                    <div class="logoInBanner">
-                        <img src="/images/N-Logo.png" alt="N_Logo">
-                    </div>
-                </div>
+            <div class="filmList" id="movieList">
+                
             </div>
         </section>
     </main>
@@ -62,6 +56,7 @@
 
     </footer>
 
+    <script src="/javascripts/index-ui.js"></script>
     <script src="/javascripts/index.js"></script>
 </body>
 </html>

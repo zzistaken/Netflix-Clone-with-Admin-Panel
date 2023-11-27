@@ -43,6 +43,7 @@ function clearAllMovies(){
     if (confirm("Tüm filmleri temizlemek istediğinize emin misiniz?")){
         UI.clearAllMoviesFromUI();
         Storage.clearAllMoviesFromStorage();
+        UI.displayMessages("Tüm filmler başarıyla temizlendi.","success");
     } 
 }
 // Loading All Events

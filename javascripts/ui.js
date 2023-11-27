@@ -6,7 +6,7 @@ class UI {
             <td><img src="${newMovie.url}" class="img-fluid img-thubmnail"></td>
             <td>${newMovie.title}</td>
             <td>${newMovie.description}</td>
-            <td><a href="#" id="delete-movie" class="btn btn-danger">Filmi Sil</a></td>
+            <td><a href="#" id="delete-movie" class="btn btn-danger">Sil</a></td>
         </tr>  
         `;
     };
@@ -34,7 +34,7 @@ class UI {
             <td><img src="${movie.url}" class="img-fluid img-thubmnail"></td>
             <td>${movie.title}</td>
             <td>${movie.description}</td>
-            <td><a href="#" id="delete-movie" class="btn btn-danger">Filmi Sil</a></td>
+            <td><a href="#" id="delete-movie" class="btn btn-danger">Sil</a></td>
         </tr>
             `
         });

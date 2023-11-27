@@ -1,11 +1,24 @@
 @media only screen and (max-width: 900px) {
+    /* LISTS */
+    li {
+        margin: 0.5rem;
+    }
     /* INDEX PAGE */
     /* TRAILER AREA */
     .trailerArea > .trailerInfo {
-        top: 5%;
+        top: 28%;
+        left: 5%;
+         right: 5%;
     }
     .trailerArea > video {
         height: 36vh;
+    }
+    /* intermediateBox */
+    .intermediateBox > h3 {
+        font-size: 0.9rem;
+    }
+    .btn-subscribe {
+        height: 40px;
     }
     /* FILM AREA */
     .filmArea > .filmList > .filmBox {
@@ -14,11 +27,20 @@
     .filmArea > h1 {
         font-size: 1rem;
     }
+    .trailerInfo> #trailerPrgh{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
     #filmName {
-        font-size: 1rem;
+        font-size: 0.99rem;
     }
     #filmDescription {
         font-size: 0.9rem;
+        color: #ddd;
+        -webkit-line-clamp: 3; /* Bu satır sayısını isteğinize göre değiştirebilirsiniz */
     }
     #filmName,#filmDescription {
         margin-bottom: 0.3rem;

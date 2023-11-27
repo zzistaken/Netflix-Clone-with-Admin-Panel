@@ -21,8 +21,8 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0.7rem;
-    background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 25%, rgba(14,14,14,1) 100%);
+    position: fixed;
+    z-index: 1;
 }
 .navbar > .logoArea {
     height: 100%;
@@ -42,6 +42,9 @@ body {
 }
 /* MAIN */
 /* TRAILER AREA */
+#trailerSec {
+    background-color: #b81d24;
+}
 .trailerArea {
     width: 100%;
     position: relative;
@@ -67,6 +70,23 @@ body {
 .trailerArea > .trailerInfo > h1,p {
     margin-bottom: 1rem;
 }
+.trailerInfo> #trailerPrgh{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+/* intermediateBox */
+.intermediateBox {
+    height: 79px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    background-color: #b81d24;
+}
 /* FILM AREA */
 .filmArea {
     width: 100%;
@@ -88,8 +108,10 @@ body {
 }
 .filmArea > .filmList > .filmBox > img {
     width: 100%;
+    height: 144px;
     border-radius: 0.5rem 0.5rem 0 0;
     margin-bottom: 0.5rem; 
+    object-fit: cover;
 }
 .filmArea > .filmList > .filmBox > .filmInfo {
     margin: 0 0.5rem 0.5rem 0.5rem;
@@ -103,8 +125,21 @@ body {
 .filmArea > .filmList > .filmBox > .logoInBanner > img {
     width: 100%;
 }
+#filmName {
+    font-size: 1.3rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
 #filmDescription {
-    color: #ddd
+    color: #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 #filmName,#filmDescription {
     margin-bottom: 0.5rem;
